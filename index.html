@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>KRIUKSUMASIN | Avaleht</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<nav>
+					<div class="logo"><a href="index.html"><span>KRIUKSUMASIN</span></a></div>
+					<ul class="menu">
+						<li><a href="index.html">AVALEHT</a></li>
+						<li><a href="generic.html">MEIST</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="elements.html">KONTAKT</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+
+
+		<!-- Banner -->
+		<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+			<section id="banner" class="bg-img" data-bg="banner.jpg">
+				<div class="inner">
+					<header>
+						<h1>KRIUKSUMASIN</h1>
+						<p> MUUSIKA |	ÜRITUSED | NOODIGRAAFIKA</p>
+					</header>
+				</div>
+				<a href="#one" class="more">Learn More</a>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Originaal muusika</h2>
+							<p>Loome kvaliteetset originaalmuusikat nii filmidele, ettevõtetele kui ka eraisikutele. Pikaajalise kogemusega oleme loonud heliteoseid alates festivalidest lõpetades multimeedia platvormidele.</p>
+						</header>
+						<div class="content">
+						</div>
+						<footer>
+							<a href="portfolio.html" class="button alt">Vaata portfoliot!</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#two" class="more">Learn More</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper post bg-img" data-bg="banner3.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Üritused nii helis kui pildis</h2>
+							<p>Lisaks muusikale pakume salvestamise võimalust ja ürituste korraldamist.</p>
+						</header>
+						<div class="content">
+							<p></p>
+						</div>
+						<footer>
+							<a href="generic.html" class="button alt">Loe lisa!</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#three" class="more">Learn More</a>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>seaded, aranžeeringud ja noodigraafika</h2>
+							<p>Telli meilt seadeid, aranžeeringuid ja noodigraafikat juba olemasolevale muusikale.</p>
+						</header>
+						<div class="content">
+							<p></p>
+						</div>
+						<footer>
+							<a href="generic.html" class="button alt">Loe lisa!</a>
+						</footer>
+					</article>
+				</div>
+			</section>
+
+		<!-- Four(kui on) -->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h2>Võta meiega ühendust</h2>
+
+					<form action="#" method="post">
+
+						<div class="field half first">
+							<label for="name">Nimi</label>
+							<input name="name" id="name" type="text" placeholder="">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="">
+						</div>
+						<div class="field">
+							<label for="message">Tekst</label>
+							<textarea name="message" id="message" rows="6" placeholder=""></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Saada!" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+					<div class="copyright">
+						&copy; KRIUKSUMASIN OÜ 2018
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+			<script type="text/javascript">
+
+			// Menu-toggle button
+
+			$(document).ready(function() {
+						$(".menu-icon").on("click", function() {
+									$("nav ul").toggleClass("showing");
+						});
+			});
+
+			// Scrolling Effect
+
+			$(window).on("scroll", function() {
+						if($(window).scrollTop()) {
+									$('nav').addClass('black');
+						}
+
+						else {
+									$('nav').removeClass('black');
+						}
+			})
+
+
+			</script>
+
+
+	</body>
+</html>

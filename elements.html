@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+
+<html>
+	<head>
+		<title>KRIUKSUMASIN  | Kontakt</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<nav>
+					<div class="logo"><a href="index.html"><span>KRIUKSUMASIN</span></a></div>
+					<ul class="menu">
+						<li><a href="index.html">AVALEHT</a></li>
+						<li><a href="generic.html">MEIST</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="elements.html">KONTAKT</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+
+
+		<!-- Main -->
+			<div id="main" class="container">
+
+				<!-- Content -->
+					<h2>KONTAKT</h2>
+					<p></p>
+
+					<h4>		Tel. (+372) 534 8779</h4>
+					<h4>		eugen.linde95@gmail.com</h4>
+					<br>
+
+				<hr class="major" />
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h2>Võta meiega ühendust</h2>
+
+					<form action="#" method="post">
+
+						<div class="field half first">
+							<label for="name">Nimi</label>
+							<input name="name" id="name" type="text" placeholder="">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="">
+						</div>
+						<div class="field">
+							<label for="message">Tekst</label>
+							<textarea name="message" id="message" rows="6" placeholder=""></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Saada!" class="button alt" type="Saada!"></li>
+						</ul>
+					</form>
+
+					<div class="copyright">
+						&copy; KRIUKSUMASIN OÜ 2018
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+
+			// Menu-toggle button
+
+			$(document).ready(function() {
+						$(".menu-icon").on("click", function() {
+									$("nav ul").toggleClass("showing");
+						});
+			});
+
+			// Scrolling Effect
+
+			$(window).on("scroll", function() {
+						if($(window).scrollTop()) {
+									$('nav').addClass('black');
+						}
+
+						else {
+									$('nav').removeClass('black');
+						}
+			})
+
+
+			</script>
+
+
+	</body>
+</html>
